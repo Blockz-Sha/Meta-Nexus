@@ -1,0 +1,35 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .item {
+    flex-direction: column;
+  }
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
